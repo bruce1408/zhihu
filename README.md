@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/liscense-by%20NelsonZhao-brightgreen.svg)    ![](https://img.shields.io/badge/health-100%25-brightgreen.svg)    ![](https://img.shields.io/badge/programming%20language-Python-orange.svg)
+![](https://img.shields.io/badge/liscense-by%20NelsonZhao-brightgreen.svg)    ![](https://img.shields.io/badge/programming%20language-Python-orange.svg)
 
 
 ## 简介
@@ -61,5 +61,29 @@
 > 文章地址：[Batch Normalization原理与实战](https://zhuanlan.zhihu.com/p/34879333)
 ![](https://raw.githubusercontent.com/NELSONZHAO/zhihu/master/batch_normalization_discussion/bn_example.png)
 
+### 10.machine\_translation\_seq2seq
+该代码基于TensorFlow 1.6版本的Seq2Seq构建了一个基本的英法翻译模型。
+> 文章地址：[基于TensorFlow框架的Seq2Seq英法机器翻译模型](https://zhuanlan.zhihu.com/p/37148308)
+![](https://raw.githubusercontent.com/NELSONZHAO/zhihu/master/machine_translation_seq2seq/pic.png)
+
+### 11.mt\_attention\_birnn
+该代码基于Keras框架，在基础Seq2Seq模型基础上增加Attention机制与BiRNN，进一步提升翻译模型的效果；同时可视化Attention层，加深读者对Attention工作机制的理解。模型在在训练样本上的BLEU分数接近0.9。
+> 文章地址：[基于Keras框架实现加入Attention与BiRNN的机器翻译模型](https://zhuanlan.zhihu.com/p/37290775)
+>![](https://raw.githubusercontent.com/NELSONZHAO/zhihu/master/mt_attention_birnn/pic1.png)
+![](https://raw.githubusercontent.com/NELSONZHAO/zhihu/master/mt_attention_birnn/pic2.png)
+
+### 12.sentiment\_analysis
+该代码基于TensorFlow 1.6版本，用DNN、LSTM以及CNN分别构建了sentiment analysis模型，并分析与比较了不同模型的性能。
+> 文章地址：[DNN/LSTM/Text-CNN情感分类实战与分析](https://zhuanlan.zhihu.com/p/37978321)
+>![](https://raw.githubusercontent.com/NELSONZHAO/zhihu/master/sentiment_analysis/images/cnn.png)
+
+### 13.image\_style\_transfer
+代码基于TensorFlow 1.6实现了Image Style Transfer模型，实现了图片的风格的学习与转换。
+> 文章地址：[基于TensorFlow构建图片风格迁移模型](https://zhuanlan.zhihu.com/p/38315161)
+> ![](https://raw.githubusercontent.com/NELSONZHAO/zhihu/master/image_style_transfer/images/figures.png)
+> ![](https://raw.githubusercontent.com/NELSONZHAO/zhihu/master/image_style_transfer/images/marvel_starry_night.gif)
+> ![](https://raw.githubusercontent.com/NELSONZHAO/zhihu/master/image_style_transfer/images/marvel_scream.gif)
+> ![](https://raw.githubusercontent.com/NELSONZHAO/zhihu/master/image_style_transfer/images/marvel_guernica.gif)
+> ![](https://raw.githubusercontent.com/NELSONZHAO/zhihu/master/image_style_transfer/images/marvel_pattern.gif)
 
 ### 不定期更新干货，欢迎Star，欢迎Fork。
